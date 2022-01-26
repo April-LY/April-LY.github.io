@@ -1,0 +1,256 @@
+<style type="text/css">
+/* index divs*/
+div.mid-main {
+	margin: 30px auto;
+    text-align: center;
+}
+    #text-information{
+	   display: block;
+    }
+    h1.dark-bg-title{
+        color: antiquewhite;
+        margin: 0 auto;
+    }
+#home {
+    padding:50px;
+    height: 400px;
+    margin: 2px auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #537FA6;
+    background-color: #537FA6;
+    width: 90%;
+    position: relative;
+    opacity: 0.8;
+    text-align: center;
+    display: inline-block;
+}
+
+#blog-layout{
+    padding:50px;
+    margin: 2px auto;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    border-color: #537FA6;
+    background-color: #9ABBD9;
+    display: inline-block;
+    opacity: 0.8;  
+    vertical-align: center;
+}
+    
+
+#index-gallery{
+    padding:50px;
+    position: relative;
+    width: 90%;
+    margin: 2px auto;
+    border-radius:10px;
+    background-color: #F2CFC2;
+    display: block;
+    overflow: auto;
+    opacity: 0.8; 
+}
+#index-mesgbord{
+    padding:50px;
+    position: relative;
+    margin: 2px auto;
+    width: 90%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #537FA6;
+    background-color: #011C40;
+    display: block;
+    color: white;
+    opacity: 0.8; 
+}
+
+
+
+/**/
+
+/*index other settings*/
+#selfphoto {
+	border-style: dotted; 
+    border-color: white;
+	background-position:center;
+	height:200px;
+	width: 200px;
+	padding: 2px;
+}
+p.personal_info_name{
+    padding:5px;
+    text-align: center;
+    color: antiquewhite;
+}
+#personal_info {
+    display: inline;
+    padding:50px;
+    width: 210px;
+}
+
+/* index Gallery settings*/
+ #pic_inline{
+    padding: 25px;
+}
+
+img.pic_Gallery{
+    margin:5;
+    border-style: solid;
+    border-color: #011C40;
+    display:inline;
+    padding: 5px;
+    float: left;
+    border-radius: 5px;
+}
+
+/* blog subpage*/
+#blog-main-home{
+    margin: 30;
+    padding: 10px;
+    opacity: 0.8;
+}
+h1.blog-h1{
+    background-color: #75A3BF;
+    border-radius: 5px; 
+    opacity: 0.7;
+}
+table.blog-show{
+    width: 100%;
+    padding-top: 10px;
+}
+th.table-heading{
+    text-align: left;
+    font-size: 18;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+th.preview-content{
+    text-align: left;
+    font-size: 10;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+                
+div.sub-blog{
+    background-color: #A3C4D9;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+#table-line{
+    border-bottom: 1px solid #344F59; 
+
+}
+th.detail-info{
+    font-size: 10;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+/* each blog*/
+div.bloghome {
+    background-color: #A3C4D9;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+ul.normal-ul-list {
+list-style-type: circle;
+}
+#normal-ul-list li {float: left;}
+p.annotation {
+color: grey;
+text-align:left;
+}
+form.blogPageButton {
+text-align: center;
+}
+
+
+
+div.showmesgboard {
+	display: block;
+	text-align: left;
+	border-radius: 10px;
+	padding-left: 10px;
+    background-color: #A3C4D9;
+    opacity: 0.6;
+    margin-bottom:5px;
+}
+
+
+
+#usr-login {
+	float: right;
+}
+
+
+
+div.desc{ 
+    text-align:center;
+    font-weight:normal;
+    width:120px;
+    margin:2px;
+  }
+
+ hr {
+ 	color: #ABD0CE;
+ 	height: 2px;
+ 	width: auto;
+ }
+
+
+ b.blogdate {
+ 	text-align: right;
+ }
+
+
+/* list subpage*/
+ #thing-list {
+	height: auto;
+	width:85%;
+    background-color: #A3C4D9;
+    border-radius: 10px;
+    opacity: 90%;
+    margin: 10 auto;
+    padding: 20px;
+}
+
+div.login-form {
+
+		opacity: 0.8;
+		padding: 5px;
+		text-align: center;
+		color: black;
+}
+
+
+ul.normal-ul-list {
+				list-style-type: circle;
+			}
+#normal-ul-list li {float: left;}
+p.annotation {
+				color: grey;
+				text-align:left;
+}
+
+hr {	
+	width: auto;
+	margin: 0 auto;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));	
+}
+
+div.messageboard{
+	text-align: center;
+}
+table.mesg-board-tb{
+                    width: 95%;
+                    padding: 5px;
+                    margin:5px;
+                }
+
+</style>
